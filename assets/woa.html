@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jQuery Mobile: Theme Download</title>
+		<link rel="stylesheet" href="jquery.mobile.structure-1.4.0.min.css" />
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="jquery.mobile-1.4.0.min.js"></script>
+		<link rel="stylesheet" href="themes/custom.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	
+</head> 
+
+<body> 
+
+<div data-role=page id=home>
+  
+  <div data-role=header data-position=fixed>
+	<h1>  WORLD OF ALPHABETS</h1>
+   </div>
+
+  <div data-role=content>
+    <center><img src="images/a2.jpg" /></center>
+    <br><br>
+    <input type="button" onClick="showStart()" value="Start">
+	<input type="button" onClick="showExit()" value="Exit">
+	<script type="text/javascript">
+	    function showStart() 
+	    {
+    	    Android.startApp();
+    	}
+        function showExit() 
+	    {
+    	    Android.exitApp();
+    	}
+    	
+	</script>
+   </div>
+ 
+ 	 
+ </div>
+ 
+
+</body>
+</html>
